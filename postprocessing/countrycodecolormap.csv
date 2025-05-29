@@ -1,0 +1,252 @@
+﻿country,Color,Name,ISO Code,Region,Sub-Region,Intermediate Region
+1,navy,Andorra,AD,Europe,Southern Europe,0
+2,tan,United Arab Emirates (the),AE,Asia,Western Asia,0
+3,tan,Afghanistan,AF,Asia,Southern Asia,0
+4,cyan,Antigua and Barbuda,AG,Americas,Latin America and the Caribbean,Caribbean
+5,cyan,Anguilla,AI,Americas,Latin America and the Caribbean,Caribbean
+6,navy,Albania,AL,Europe,Southern Europe,0
+7,tan,Armenia,AM,Asia,Western Asia,0
+8,silver,Angola,AO,Africa,Sub-Saharan Africa,Middle Africa
+9,cyan,Argentina,AR,Americas,Latin America and the Caribbean,South America
+10,darkviolet,American Samoa,AS,Oceania,Polynesia,0
+11,navy,Austria,AT,Europe,Western Europe,0
+56,navy,Germany,DE,Europe,Western Europe,0
+13,cyan,Aruba,AW,Americas,Latin America and the Caribbean,Caribbean
+14,navy,Åland Islands,AX,Europe,Northern Europe,0
+15,tan,Azerbaijan,AZ,Asia,Western Asia,0
+16,navy,Bosnia and Herzegovina,BA,Europe,Southern Europe,0
+17,cyan,Barbados,BB,Americas,Latin America and the Caribbean,Caribbean
+18,tan,Bangladesh,BD,Asia,Southern Asia,0
+19,navy,Belgium,BE,Europe,Western Europe,0
+20,silver,Burkina Faso,BF,Africa,Sub-Saharan Africa,Western Africa
+21,navy,Bulgaria,BG,Europe,Eastern Europe,0
+22,tan,Bahrain,BH,Asia,Western Asia,0
+23,silver,Burundi,BI,Africa,Sub-Saharan Africa,Eastern Africa
+24,silver,Benin,BJ,Africa,Sub-Saharan Africa,Western Africa
+25,cyan,Saint Barthélemy,BL,Americas,Latin America and the Caribbean,Caribbean
+26,cyan,Bermuda,BM,Americas,Northern America,0
+27,tan,Brunei Darussalam,BN,Asia,South-eastern Asia,0
+28,cyan,Bolivia (Plurinational State of),BO,Americas,Latin America and the Caribbean,South America
+29,cyan,"Bonaire, Sint Eustatius and Saba",BQ,Americas,Latin America and the Caribbean,Caribbean
+30,green,Brazil,BR,Americas,Latin America and the Caribbean,South America
+31,cyan,Bahamas (the),BS,Americas,Latin America and the Caribbean,Caribbean
+32,tan,Bhutan,BT,Asia,Southern Asia,0
+33,cyan,Bouvet Island,BV,Americas,Latin America and the Caribbean,South America
+34,silver,Botswana,BW,Africa,Sub-Saharan Africa,Southern Africa
+35,navy,Belarus,BY,Europe,Eastern Europe,0
+36,cyan,Belize,BZ,Americas,Latin America and the Caribbean,Central America
+37,khaki,Canada,CA,Americas,Northern America,0
+38,darkviolet,Cocos (Keeling) Islands (the),CC,Oceania,Australia and New Zealand,0
+39,silver,Congo (the Democratic Republic of the),CD,Africa,Sub-Saharan Africa,Middle Africa
+40,silver,Central African Republic (the),CF,Africa,Sub-Saharan Africa,Middle Africa
+41,silver,Congo (the),CG,Africa,Sub-Saharan Africa,Middle Africa
+42,navy,Switzerland,CH,Europe,Western Europe,0
+43,silver,Côte d'Ivoire,CI,Africa,Sub-Saharan Africa,Western Africa
+44,darkviolet,Cook Islands (the),CK,Oceania,Polynesia,0
+45,purple,Chile,CL,Americas,Latin America and the Caribbean,South America
+46,silver,Cameroon,CM,Africa,Sub-Saharan Africa,Middle Africa
+109,navy,Italy,IT,Europe,Southern Europe,0
+48,cyan,Colombia,CO,Americas,Latin America and the Caribbean,South America
+49,cyan,Costa Rica,CR,Americas,Latin America and the Caribbean,Central America
+50,cyan,Cuba,CU,Americas,Latin America and the Caribbean,Caribbean
+51,silver,Cabo Verde,CV,Africa,Sub-Saharan Africa,Western Africa
+52,cyan,Curaçao,CW,Americas,Latin America and the Caribbean,Caribbean
+53,darkviolet,Christmas Island,CX,Oceania,Australia and New Zealand,0
+54,tan,Cyprus,CY,Asia,Western Asia,0
+55,navy,Czechia,CZ,Europe,Eastern Europe,0
+12,seagreen,Australia,AU,Oceania,Australia and New Zealand,0
+57,silver,Djibouti,DJ,Africa,Sub-Saharan Africa,Eastern Africa
+58,navy,Denmark,DK,Europe,Northern Europe,0
+59,cyan,Dominica,DM,Americas,Latin America and the Caribbean,Caribbean
+60,cyan,Dominican Republic (the),DO,Americas,Latin America and the Caribbean,Caribbean
+61,silver,Algeria,DZ,Africa,Northern Africa,0
+62,cyan,Ecuador,EC,Americas,Latin America and the Caribbean,South America
+63,navy,Estonia,EE,Europe,Northern Europe,0
+64,indigo,Egypt,EG,Africa,Northern Africa,0
+65,silver,Western Sahara,EH,Africa,Northern Africa,0
+66,silver,Eritrea,ER,Africa,Sub-Saharan Africa,Eastern Africa
+67,navy,Spain,ES,Europe,Southern Europe,0
+68,silver,Ethiopia,ET,Africa,Sub-Saharan Africa,Eastern Africa
+69,navy,Finland,FI,Europe,Northern Europe,0
+70,darkviolet,Fiji,FJ,Oceania,Melanesia,0
+71,cyan,Falkland Islands (the) [Malvinas],FK,Americas,Latin America and the Caribbean,South America
+72,darkviolet,Micronesia (Federated States of),FM,Oceania,Micronesia,0
+73,navy,Faroe Islands (the),FO,Europe,Northern Europe,0
+74,navy,France,FR,Europe,Western Europe,0
+75,silver,Gabon,GA,Africa,Sub-Saharan Africa,Middle Africa
+76,navy,UK,GB,Europe,Northern Europe,0
+77,cyan,Grenada,GD,Americas,Latin America and the Caribbean,Caribbean
+78,tan,Georgia,GE,Asia,Western Asia,0
+79,cyan,French Guiana,GF,Americas,Latin America and the Caribbean,South America
+80,navy,Guernsey,GG,Europe,Northern Europe,Channel Islands
+81,silver,Ghana,GH,Africa,Sub-Saharan Africa,Western Africa
+82,navy,Gibraltar,GI,Europe,Southern Europe,0
+83,cyan,Greenland,GL,Americas,Northern America,0
+84,silver,Gambia (the),GM,Africa,Sub-Saharan Africa,Western Africa
+85,silver,Guinea,GN,Africa,Sub-Saharan Africa,Western Africa
+86,cyan,Guadeloupe,GP,Americas,Latin America and the Caribbean,Caribbean
+87,silver,Equatorial Guinea,GQ,Africa,Sub-Saharan Africa,Middle Africa
+88,navy,Greece,GR,Europe,Southern Europe,0
+89,cyan,South Georgia and the South Sandwich Islands,GS,Americas,Latin America and the Caribbean,South America
+90,cyan,Guatemala,GT,Americas,Latin America and the Caribbean,Central America
+91,darkviolet,Guam,GU,Oceania,Micronesia,0
+92,silver,Guinea-Bissau,GW,Africa,Sub-Saharan Africa,Western Africa
+93,cyan,Guyana,GY,Americas,Latin America and the Caribbean,South America
+94,tan,Hong Kong,HK,Asia,Eastern Asia,0
+95,darkviolet,Heard Island and McDonald Islands,HM,Oceania,Australia and New Zealand,0
+96,cyan,Honduras,HN,Americas,Latin America and the Caribbean,Central America
+97,navy,Croatia,HR,Europe,Southern Europe,0
+98,cyan,Haiti,HT,Americas,Latin America and the Caribbean,Caribbean
+99,navy,Hungary,HU,Europe,Eastern Europe,0
+100,tan,Indonesia,ID,Asia,South-eastern Asia,0
+101,navy,Ireland,IE,Europe,Northern Europe,0
+102,tan,Israel,IL,Asia,Western Asia,0
+103,navy,Isle of Man,IM,Europe,Northern Europe,0
+47,gold,China,CN,Asia,Eastern Asia,0
+105,silver,British Indian Ocean Territory (the),IO,Africa,Sub-Saharan Africa,Eastern Africa
+106,tan,Iraq,IQ,Asia,Western Asia,0
+107,tan,Iran (Islamic Republic of),IR,Asia,Southern Asia,0
+108,navy,Iceland,IS,Europe,Northern Europe,0
+113,purple,Japan,JP,Asia,Eastern Asia,0
+110,navy,Jersey,JE,Europe,Northern Europe,Channel Islands
+111,cyan,Jamaica,JM,Americas,Latin America and the Caribbean,Caribbean
+112,tan,Jordan,JO,Asia,Western Asia,0
+104,orange,India,IN,Asia,Southern Asia,0
+114,silver,Kenya,KE,Africa,Sub-Saharan Africa,Eastern Africa
+115,tan,Kyrgyzstan,KG,Asia,Central Asia,0
+116,tan,Cambodia,KH,Asia,South-eastern Asia,0
+117,darkviolet,Kiribati,KI,Oceania,Micronesia,0
+118,silver,Comoros (the),KM,Africa,Sub-Saharan Africa,Eastern Africa
+119,cyan,Saint Kitts and Nevis,KN,Americas,Latin America and the Caribbean,Caribbean
+120,tan,North Korea,KP,Asia,Eastern Asia,0
+121,tan,South Korea,KR,Asia,Eastern Asia,0
+122,tan,Kuwait,KW,Asia,Western Asia,0
+123,cyan,Cayman Islands (the),KY,Americas,Latin America and the Caribbean,Caribbean
+124,tan,Kazakhstan,KZ,Asia,Central Asia,0
+125,tan,Lao People's Democratic Republic (the),LA,Asia,South-eastern Asia,0
+126,tan,Lebanon,LB,Asia,Western Asia,0
+127,cyan,Saint Lucia,LC,Americas,Latin America and the Caribbean,Caribbean
+128,navy,Liechtenstein,LI,Europe,Western Europe,0
+129,tan,Sri Lanka,LK,Asia,Southern Asia,0
+130,silver,Liberia,LR,Africa,Sub-Saharan Africa,Western Africa
+131,silver,Lesotho,LS,Africa,Sub-Saharan Africa,Southern Africa
+132,navy,Lithuania,LT,Europe,Northern Europe,0
+133,navy,Luxembourg,LU,Europe,Western Europe,0
+134,navy,Latvia,LV,Europe,Northern Europe,0
+135,silver,Libya,LY,Africa,Northern Africa,0
+136,darkgreen,Morocco,MA,Africa,Northern Africa,0
+137,navy,Monaco,MC,Europe,Western Europe,0
+138,navy,Moldova (the Republic of),MD,Europe,Eastern Europe,0
+139,navy,Montenegro,ME,Europe,Southern Europe,0
+140,cyan,Saint Martin (French part),MF,Americas,Latin America and the Caribbean,Caribbean
+141,silver,Madagascar,MG,Africa,Sub-Saharan Africa,Eastern Africa
+142,darkviolet,Marshall Islands (the),MH,Oceania,Micronesia,0
+143,navy,Republic of North Macedonia,MK,Europe,Southern Europe,0
+144,silver,Mali,ML,Africa,Sub-Saharan Africa,Western Africa
+145,tan,Myanmar,MM,Asia,South-eastern Asia,0
+146,tan,Mongolia,MN,Asia,Eastern Asia,0
+147,tan,Macao,MO,Asia,Eastern Asia,0
+148,darkviolet,Northern Mariana Islands (the),MP,Oceania,Micronesia,0
+149,cyan,Martinique,MQ,Americas,Latin America and the Caribbean,Caribbean
+150,silver,Mauritania,MR,Africa,Sub-Saharan Africa,Western Africa
+151,cyan,Montserrat,MS,Americas,Latin America and the Caribbean,Caribbean
+152,navy,Malta,MT,Europe,Southern Europe,0
+153,silver,Mauritius,MU,Africa,Sub-Saharan Africa,Eastern Africa
+154,tan,Maldives,MV,Asia,Southern Asia,0
+155,silver,Malawi,MW,Africa,Sub-Saharan Africa,Eastern Africa
+156,cyan,Mexico,MX,Americas,Latin America and the Caribbean,Central America
+157,tan,Malaysia,MY,Asia,South-eastern Asia,0
+158,silver,Mozambique,MZ,Africa,Sub-Saharan Africa,Eastern Africa
+159,silver,Nambia,NA,Africa,Sub-Saharan Africa,Southern Africa
+160,darkviolet,New Caledonia,NC,Oceania,Melanesia,0
+161,silver,Niger (the),NE,Africa,Sub-Saharan Africa,Western Africa
+162,darkviolet,Norfolk Island,NF,Oceania,Australia and New Zealand,0
+163,silver,Nigeria,NG,Africa,Sub-Saharan Africa,Western Africa
+164,cyan,Nicaragua,NI,Americas,Latin America and the Caribbean,Central America
+165,navy,Netherlands (the),NL,Europe,Western Europe,0
+166,navy,Norway,NO,Europe,Northern Europe,0
+167,tan,Nepal,NP,Asia,Southern Asia,0
+168,darkviolet,Nauru,NR,Oceania,Micronesia,0
+169,darkviolet,Niue,NU,Oceania,Polynesia,0
+170,darkviolet,New Zealand,NZ,Oceania,Australia and New Zealand,0
+171,tan,Oman,OM,Asia,Western Asia,0
+172,cyan,Panama,PA,Americas,Latin America and the Caribbean,Central America
+173,cyan,Peru,PE,Americas,Latin America and the Caribbean,South America
+174,darkviolet,French Polynesia,PF,Oceania,Polynesia,0
+175,darkviolet,Papua New Guinea,PG,Oceania,Melanesia,0
+176,tan,Philippines (the),PH,Asia,South-eastern Asia,0
+177,tan,Pakistan,PK,Asia,Southern Asia,0
+178,navy,Poland,PL,Europe,Eastern Europe,0
+179,cyan,Saint Pierre and Miquelon,PM,Americas,Northern America,0
+180,darkviolet,Pitcairn,PN,Oceania,Polynesia,0
+181,cyan,Puerto Rico,PR,Americas,Latin America and the Caribbean,Caribbean
+182,tan,"Palestine, State of",PS,Asia,Western Asia,0
+183,navy,Portugal,PT,Europe,Southern Europe,0
+184,darkviolet,Palau,PW,Oceania,Micronesia,0
+185,cyan,Paraguay,PY,Americas,Latin America and the Caribbean,South America
+186,tan,Qatar,QA,Asia,Western Asia,0
+187,silver,Réunion,RE,Africa,Sub-Saharan Africa,Eastern Africa
+188,navy,Romania,RO,Europe,Eastern Europe,0
+189,navy,Serbia,RS,Europe,Southern Europe,0
+190,pink,Russian Federation (the),RU,Europe,Eastern Europe,0
+191,silver,Rwanda,RW,Africa,Sub-Saharan Africa,Eastern Africa
+192,tan,Saudi Arabia,SA,Asia,Western Asia,0
+193,darkviolet,Solomon Islands,SB,Oceania,Melanesia,0
+194,silver,Seychelles,SC,Africa,Sub-Saharan Africa,Eastern Africa
+195,silver,Sudan (the),SD,Africa,Northern Africa,0
+196,navy,Sweden,SE,Europe,Northern Europe,0
+197,tan,Singapore,SG,Asia,South-eastern Asia,0
+198,silver,"Saint Helena, Ascension and Tristan da Cunha",SH,Africa,Sub-Saharan Africa,Western Africa
+199,navy,Slovenia,SI,Europe,Southern Europe,0
+200,navy,Svalbard and Jan Mayen,SJ,Europe,Northern Europe,0
+201,navy,Slovakia,SK,Europe,Eastern Europe,0
+202,silver,Sierra Leone,SL,Africa,Sub-Saharan Africa,Western Africa
+203,navy,San Marino,SM,Europe,Southern Europe,0
+204,silver,Senegal,SN,Africa,Sub-Saharan Africa,Western Africa
+205,silver,Somalia,SO,Africa,Sub-Saharan Africa,Eastern Africa
+206,cyan,Suriname,SR,Americas,Latin America and the Caribbean,South America
+207,silver,South Sudan,SS,Africa,Sub-Saharan Africa,Eastern Africa
+208,silver,Sao Tome and Principe,ST,Africa,Sub-Saharan Africa,Middle Africa
+209,cyan,El Salvador,SV,Americas,Latin America and the Caribbean,Central America
+210,cyan,Sint Maarten (Dutch part),SX,Americas,Latin America and the Caribbean,Caribbean
+211,tan,Syrian Arab Republic,SY,Asia,Western Asia,0
+212,silver,Eswatini,SZ,Africa,Sub-Saharan Africa,Southern Africa
+213,cyan,Turks and Caicos Islands (the),TC,Americas,Latin America and the Caribbean,Caribbean
+214,silver,Chad,TD,Africa,Sub-Saharan Africa,Middle Africa
+215,silver,French Southern Territories (the),TF,Africa,Sub-Saharan Africa,Eastern Africa
+216,silver,Togo,TG,Africa,Sub-Saharan Africa,Western Africa
+217,tan,Thailand,TH,Asia,South-eastern Asia,0
+218,tan,Tajikistan,TJ,Asia,Central Asia,0
+219,darkviolet,Tokelau,TK,Oceania,Polynesia,0
+220,tan,Timor-Leste,TL,Asia,South-eastern Asia,0
+221,tan,Turkmenistan,TM,Asia,Central Asia,0
+222,silver,Tunisia,TN,Africa,Northern Africa,0
+223,darkviolet,Tonga,TO,Oceania,Polynesia,0
+224,tan,Turkey,TR,Asia,Western Asia,0
+225,cyan,Trinidad and Tobago,TT,Americas,Latin America and the Caribbean,Caribbean
+226,darkviolet,Tuvalu,TV,Oceania,Polynesia,0
+227,tan,Taiwan (Province of China),TW,Asia,Eastern Asia,0
+228,silver,"Tanzania, United Republic of",TZ,Africa,Sub-Saharan Africa,Eastern Africa
+229,navy,Ukraine,UA,Europe,Eastern Europe,0
+230,silver,Uganda,UG,Africa,Sub-Saharan Africa,Eastern Africa
+231,darkviolet,United States Minor Outlying Islands (the),UM,Oceania,Micronesia,0
+232,red,USA,US,Americas,Northern America,0
+233,cyan,Uruguay,UY,Americas,Latin America and the Caribbean,South America
+234,tan,Uzbekistan,UZ,Asia,Central Asia,0
+235,navy,Holy See (the),VA,Europe,Southern Europe,0
+236,cyan,Saint Vincent and the Grenadines,VC,Americas,Latin America and the Caribbean,Caribbean
+237,cyan,Venezuela (Bolivarian Republic of),VE,Americas,Latin America and the Caribbean,South America
+238,cyan,Virgin Islands (British),VG,Americas,Latin America and the Caribbean,Caribbean
+239,cyan,Virgin Islands (U.S.),VI,Americas,Latin America and the Caribbean,Caribbean
+240,tan,Viet Nam,VN,Asia,South-eastern Asia,0
+241,darkviolet,Vanuatu,VU,Oceania,Melanesia,0
+242,darkviolet,Wallis and Futuna,WF,Oceania,Polynesia,0
+243,darkviolet,Samoa,WS,Oceania,Polynesia,0
+244,navy,Kosovo,XK,Europe,Southern Europe,
+245,#N/A,#N/A,XX,#N/A,#N/A,
+246,tan,Yemen,YE,Asia,Western Asia,0
+247,silver,Mayotte,YT,Africa,Sub-Saharan Africa,Eastern Africa
+248,silver,South Africa,ZA,Africa,Sub-Saharan Africa,Southern Africa
+249,silver,Zambia,ZM,Africa,Sub-Saharan Africa,Eastern Africa
+250,silver,Zimbabwe,ZW,Africa,Sub-Saharan Africa,Eastern Africa
+,#N/A,#N/A,#N/A,#N/A,#N/A,
