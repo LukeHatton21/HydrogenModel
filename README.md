@@ -23,6 +23,7 @@ Required libraries:
 ## FLOWCHART
 
 ```mermaid
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
 flowchart LR
 RenewableProfiles["`Renewable Profiles
     Generated from NASA MERRA-2 Data
