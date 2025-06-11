@@ -20,6 +20,28 @@ Required libraries:
  * os
  * regionmask
 
+## FLOWCHART
+
+```mermaid
+flowchart LR
+RenewableProfiles["`Renewable Profiles
+    Generated from NASA MERRA-2 Data
+    Using renewable.calculator.py`"]
+Files["`File Input Reader
+    Renewable profiles and input assumptions are read in
+    Using geodata_v3.py and filepreprocessor_v3.py`"]
+ElectrolyserModel["`Electrolyser Model
+    Renewable profiles are smoothed and used to generate hydrogen outputs
+    Using electrolyser_v4.py`"]
+EconomicModel["`Economic Model
+    Deployment and operating costs are estimated for each gridpoint
+    Using economicmodel_v4.py`"]
+hydrogenModel["`Hydrogen Model
+    Main file, runs all other files and optimises the electrolyser size at each gridpoint
+    Using hydrogenmodel_v4.py`"]
+    Renewable Profiles --> Files --> ElectrolyserModel --> EconomicModel --> hydrogenModel
+```
+
 ## SETUP
 
 ### Generate and download renewable power profiles
