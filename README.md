@@ -40,7 +40,7 @@ EconomicModel["`Economic Model
 hydrogenModel["`Hydrogen Model
     Main file, runs all other files and optimises the electrolyser size at each gridpoint
     Using hydrogenmodel_v4.py`"]
-    Renewable Profiles --> Files --> ElectrolyserModel --> EconomicModel --> hydrogenModel
+    RenewableProfiles --> Files --> ElectrolyserModel --> EconomicModel --> hydrogenModel
 ```
 
 ## SETUP
