@@ -25,20 +25,20 @@ Required libraries:
 ```mermaid
 %%{init: {"flowchart": {"htmlLabels": false}} }%%
 flowchart LR
-RenewableProfiles["`**Renewable Profiles**
-    Generated from NASA MERRA-2 Data
+RenewableProfiles["`**Renewable Profiles**<br>
+    Generated from NASA MERRA-2 Data<br>
     Using renewable.calculator.py`"]
-Files["`**File Input Reader**
-    Renewable profiles and input assumptions are read in
+Files["`**File Input Reader**<br>
+    Renewable profiles and input assumptions are read in<br>
     Using geodata_v3.py and filepreprocessor_v3.py`"]
-ElectrolyserModel["`**Electrolyser Model**
-    Renewable profiles are smoothed and used to generate hydrogen outputs
+ElectrolyserModel["`**Electrolyser Model**<br>
+    Renewable profiles are smoothed and used to generate hydrogen outputs<br>
     Using electrolyser_v4.py`"]
-EconomicModel["`**Economic Model**
-    Deployment and operating costs are estimated for each gridpoint
+EconomicModel["`**Economic Model**<br>
+    Deployment and operating costs are estimated for each gridpoint<br>
     Using economicmodel_v4.py`"]
-hydrogenModel["`**Hydrogen Model**
-    Main file, runs all other files and optimises the electrolyser size at each gridpoint
+hydrogenModel["`**Hydrogen Model**<br>
+    Main file, runs all other files and optimises the electrolyser size at each gridpoint<br>
     Using hydrogenmodel_v4.py`"]
     RenewableProfiles --> Files --> ElectrolyserModel --> EconomicModel --> hydrogenModel
 ```
