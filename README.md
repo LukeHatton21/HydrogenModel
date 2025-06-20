@@ -51,7 +51,7 @@ First, download the necessary input data from NASA's [MERRA-2 reanalysis](https:
 Save the files into the running folder under /MERRA2_INPUTS/SOLAR_CF and /MERRA2_INPUTS/WIND_CF and with the necessary filenames.
 
 ### Set up the LCOH model
-With the required libraries installed, the model should just require editing of the paths in the hydrogen_model.py script and setting the conditions for the model run in lines 862 - 870 (difference in solar fraction, electrolyser technology, electrolyser size optimisation, electrolyser capex and the number of cores).
+With the required libraries installed, the model should just require editing of the paths in the hydrogen_model.py script and setting the conditions for the model run in lines 860 - 865 (difference in solar fraction, electrolyser technology, electrolyser size optimisation, electrolyser capex and the number of cores).
 
 ### Process renewables data into hydrogen production and economics
 Performing the LCOH model run is very computationally expensive and requires ~16 GB working memory on your computer. To run the model, run the hydrogen_model.py script with the desired regions and input files. This process should yield a set of NetCDF files in the output folder that has been specified, which contain details of the cost, investment requirements and hydrogen output at each MERRA-2 gridcell.
