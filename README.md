@@ -1,6 +1,6 @@
 # The Levelised Cost of Hydrogen (LCOH) model
 
-The LCOH Ninja is a Python project to simulate the hydrogen output and cost from green hydrogen plants powered by wind and solar, globally. The wind and solar power profiles are taken from [Renewables.ninja](https://www.renewables.ninja/) (wind) and developed using the [PV Lib module](https://pvlib-python.readthedocs.io/en/stable/) (solar)
+The LCOH Ninja is a Python project to simulate the hydrogen output and cost from green hydrogen plants powered by wind and solar, globally. The wind and solar power profiles are taken from [Renewables.ninja](https://www.renewables.ninja/) (wind) and developed using the [PV Lib module](https://pvlib-python.readthedocs.io/en/stable/) (solar). This repository also includes an abatement model that can be used to explore emissions trade offs associated with the use of renewable electricity for green hydrogen production and end-use, using country-level emissions factors for grid-connected renewables and associated end-uses including EVs, heat pumps and industrial electrification. 
 
 
 ## Requirements
@@ -18,6 +18,10 @@ Required libraries:
  * datetime
  * os
  * regionmask
+ * scikit-learn
+ * glob
+ * re
+ * warnings
 
 
 ## FLOWCHART
@@ -40,7 +44,12 @@ EconomicModel["`**Economic Model**<br>
 hydrogenModel["`**Hydrogen Model**<br>
     Main file, runs all other files and optimises the electrolyser size at each gridpoint<br>
     Using hydrogenmodel_v4.py`"]
-    RenewableProfiles --> Files --> ElectrolyserModel --> EconomicModel --> hydrogenModel
+ResultsProcessor["`**Results Processor**<br>
+Collates results for multiple runs across different solar fractions and selects least-cost cases`"]
+abatementModel["`**Abatement Model**<br>
+    Using the results from the hydrogen model, emissions tradeoffs at each grid cell are assessed<br>
+    Using abatement_model.py`"]
+    RenewableProfiles --> Files --> ElectrolyserModel --> EconomicModel --> hydrogenModel --> ResultsProcessor --> abatementModel
 ```
 
 ## SETUP
@@ -56,12 +65,15 @@ With the required libraries installed, the model should just require editing of 
 ### Process renewables data into hydrogen production and economics
 Performing the LCOH model run is very computationally expensive and requires ~16 GB working memory on your computer. To run the model, run the hydrogen_model.py script with the desired regions and input files. This process should yield a set of NetCDF files in the output folder that has been specified, which contain details of the cost, investment requirements and hydrogen output at each MERRA-2 gridcell.
 
+### Process results into abatement requirements
+The abatement model extension assesses the implications of national emissions factors and emissions savings from electrified end-uses to each model grid cell, computing the requirements for hydrogen end-uses to meet the same level of emissions reductions. Outputs are merged with project-level datasets for green hydrogen (e.g., the IEA's Hydrogen Project Tracker) using nearest-grid spatial matching to compare the implications for individual projects.
+
 
 ## USAGE INSTRUCTIONS
 
 First, edit the paths in the hydrogen_model script and ensure that the input folders (DATA, MERRA2_INPUTS/WIND_CF/ and MERRA2_INPUTS/SOLAR_CF) are set up correctly.
 
-Second, ensure that all the required data files are in the /DATA/ folder. Several files need to be downloaded and directly added to that folder, including: [ETOPO_bathymetry.nc](https://www.ncei.noaa.gov/products/etopo-global-relief-model) and [distance2shore.nc](https://catalog.data.gov/dataset/distance-to-nearest-coastline-0-04-degree-grid). 
+Second, ensure that all the required data files are in the /DATA/ folder. Several files need to be downloaded and directly added to that folder, including: [ETOPO_bathymetry.nc](https://www.ncei.noaa.gov/products/etopo-global-relief-model) [ember_data.csv](https://ember-energy.org/data/monthly-electricity-data/) and [distance2shore.nc](https://catalog.data.gov/dataset/distance-to-nearest-coastline-0-04-degree-grid). 
 
 Third, decide on the model parameters that you wish to use, including: 
  * fract_diff (difference in solar fraction being computed e.g., 0.25 to give results for 0%, 25%, 50%, 75%...)
@@ -69,7 +81,7 @@ Third, decide on the model parameters that you wish to use, including:
  * elec_capex (cost of the electrolyser in USD/kW)
  * num_cores (number of computing cores to use for the parallelisation) and latitude and longitude limits for the calculation
 
-Fourth, run the hydrogen_model.py. I recommend that you save a different version for each model configuration run. Given the large volumes of data and the optimisation of electrolyser size on a location by location basis, it is very computationally intensive (e.g., 3 weeks for a year of data globally on a 16-core Xeon processor).
+Fourth, run the hydrogen_model.py. I recommend that you save a different version for each model configuration run. Given the large volumes of data and the optimisation of electrolyser size on a location by location basis, it is very computationally intensive (e.g., 3 weeks for a year of data globally on a 16-core Xeon processor). The abatement model and results processor can then be run when the model runs are completed.
 
 ## POSTPROCESSING
 
@@ -88,5 +100,5 @@ See `LICENSE` for more detail
 
 The LCOH code was developed by Luke Hatton, who can be contacted at l.hatton23@imperial.ac.uk
 
-L Hatton, 2025.  A global, levelised cost of hydrogen (LCOH) model. Currently under review.
+L Hatton, 2026.  A global, levelised cost of hydrogen (LCOH) model.
 
