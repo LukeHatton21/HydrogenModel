@@ -73,7 +73,7 @@ The abatement model extension assesses the implications of national emissions fa
 
 First, edit the paths in the hydrogen_model script and ensure that the input folders (DATA, MERRA2_INPUTS/WIND_CF/ and MERRA2_INPUTS/SOLAR_CF) are set up correctly.
 
-Second, ensure that all the required data files are in the /DATA/ folder. Several files need to be downloaded and directly added to that folder, including: [ETOPO_bathymetry.nc](https://www.ncei.noaa.gov/products/etopo-global-relief-model) [ember_data.csv](https://ember-energy.org/data/monthly-electricity-data/) and [distance2shore.nc](https://catalog.data.gov/dataset/distance-to-nearest-coastline-0-04-degree-grid). 
+Second, ensure that all the required data files are in the /DATA/ folder. Several files need to be downloaded and directly added to that folder, including: [ETOPO_bathymetry.nc](https://www.ncei.noaa.gov/products/etopo-global-relief-model), [ember_data.csv](https://ember-energy.org/data/monthly-electricity-data/) and [distance2shore.nc](https://catalog.data.gov/dataset/distance-to-nearest-coastline-0-04-degree-grid). 
 
 Third, decide on the model parameters that you wish to use, including: 
  * fract_diff (difference in solar fraction being computed e.g., 0.25 to give results for 0%, 25%, 50%, 75%...)
